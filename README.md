@@ -14,11 +14,8 @@ two spheres (the activator and target) and making the two collide by moving the 
 1. Clone this repository. 
 2. Install the Va Rest Plugin for Unreal Engine at https://github.com/ufna/VaRest   
    a. Clone the Va Rest repository  
-   b. Create a Plugins directory and put the Va Rest directory inside:  
-      UE_AR_IoT_Demo  
-         Plugins  
-            VaRest-1.1-r26  
-              Resources, Source, ...  
+   b. Create a Plugins directory and put the Va Rest directory inside so that:  
+      UE_AR_IoT_Demo/Plugins/VaRest-1.1-r26/Resources, Source, ...  
    c. In the DefaultEngine.ini configuration file, enable the Va Rest Plugin by adding:  
        [Plugins]  
        +EnabledPlugins=VaRestPlugin  
