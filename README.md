@@ -13,15 +13,15 @@ two spheres (the activator and target) and making the two collide by moving the 
 # Setup Instructions 
 1. Clone this repository. 
 2. Install the Va Rest Plugin for Unreal Engine at https://github.com/ufna/VaRest   
-  2.1. Clone the Va Rest repository  
-  2.2. Create a Plugins directory and put the Va Rest directory inside:  
-    UE_AR_IoT_Demo  
-    - Plugins  
-      - VaRest-1.1-r26  
-        - Resources, Source, ...  
-  2.3. In the DefaultEngine.ini configuration file, enable the Va Rest Plugin by adding:  
-    [Plugins]  
-    +EnabledPlugins=VaRestPlugin  
+   a. Clone the Va Rest repository  
+   b. Create a Plugins directory and put the Va Rest directory inside:  
+      UE_AR_IoT_Demo  
+         Plugins  
+            VaRest-1.1-r26  
+              Resources, Source, ...  
+   c. In the DefaultEngine.ini configuration file, enable the Va Rest Plugin by adding:  
+       [Plugins]  
+       +EnabledPlugins=VaRestPlugin  
 3. Open the project in Unreal Engine and navigate to the BP_ARPawn blueprint. 
 4. Find the 'App ID' local variable and replace {YOUR OPENWEATHERAPI APP ID} with your OpenWeatherAPI App ID in its default value. 
 5. Find the 'Auth Token' local variable and {YOUR HASSIO AUTHORIZATION TOKEN} with your Home Assitant Authorization token in its default value. 
