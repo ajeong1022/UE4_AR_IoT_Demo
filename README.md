@@ -24,3 +24,6 @@ two spheres (the activator and target) and making the two collide by moving the 
 5. Find the 'Auth Token' local variable and {YOUR HASSIO AUTHORIZATION TOKEN} with your Home Assitant Authorization token in its default value. 
 6. Find the 'Base Lamp Request URL' local variable and replace {YOUR IP ADDRESS} with the IP address of your Philips lighbulb's REST API
 7. Compile, Save, and launch the application on your ARCore-compatible Android device.
+
+# Demo 
+![](Demo1_1.gif)
